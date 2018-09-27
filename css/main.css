@@ -1,0 +1,13 @@
+.navigation{
+    padding:20px 20px 20px 0px;
+    background-color: white;
+    color: #707070;
+    box-shadow: 1px 1px 1px lightgray;
+}
+.navigation a{
+    color: #707070
+}
+
+.navigation a:hover{
+    color:#30B5C5;
+}
