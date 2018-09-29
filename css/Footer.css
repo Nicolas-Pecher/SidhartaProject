@@ -8,3 +8,10 @@
     width: 100%;
     height: 110px;
 }
+.footer a{
+    color: #707070;
+}
+.footer a:hover{
+    color:#30B5C5 !important;
+}
+
