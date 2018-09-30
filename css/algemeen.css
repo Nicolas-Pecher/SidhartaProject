@@ -9,10 +9,10 @@
 }
 .img{
 	background-color: #B7C3D0;
-	width: 100%;
+	padding: 0px;
 }
 .darkblue{
-	background-color: #008080;
+	background-color: #2794A1;
 }
 .blue{
 	background-color: #009ACD;
@@ -23,4 +23,16 @@
 span{
 	color: #B7C3D0;
 	text-transform: uppercase;
+}
+img{
+	width: 100%;
+	margin: 0;
+}
+.container-fluid p{
+	margin-bottom: 0px;
+	padding-bottom: 20px
+}
+.container-fluid span{
+	margin-bottom: 0px;
+	padding-bottom: 20px
 }
