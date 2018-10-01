@@ -5,22 +5,38 @@ body {
     background-size: cover;
 }
 .back{
-    height: 600px;
+    margin-bottom: 400px;
 }
 .white{
     background-color: white;
     color: #707070;
-    font-size: 1.8em;
+    font-size: 2.6em;
     padding: 20px 0px;
 }
-.picture{
-    background-color: lightgray;
-    /* border: 1px solid black;*/
-} 
+.white:hover{
+    color: #30B5C5;
+}
 .box{
-   margin-top: 150px;
+   margin-top: 50px;
    border: 1px solid #707070;
+   box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.521);
 }
 .welkom{
-    font-size: 2.2em;
+    font-size: 4em;
+    color: white;
+    margin-top: 70px;
+    font-family: 'Poppins', sans-serif;
+}
+.padding{
+    padding: 0px;
+}
+.padding img{
+    -webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.padding img:hover{
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
 }
