@@ -5,6 +5,12 @@ body{
     background-size: 700px;
     background-attachment: fixed;
 }
+a{
+    color: #888888;
+}
+a:hover{
+    color: #888888;
+}
 @media screen and (max-width: 600px) {
     body {
       background-image: url(../afbeeldingen/background7.svg);
